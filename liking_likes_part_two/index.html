@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>liking Likes Part Two</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+</head>
+
+<body>
+        <div class="tool_bar">
+            <h1>Network</h1>
+        </div>
+
+        <h2>Your Feed</h2>
+
+    <div id="body_div">
+        <div id="left_column">
+            <div class="avatar">
+                <img src="./img/blank.png" alt="a blank photo but would be your photo">
+                <a href="#">Add an avatar</a>
+                <h2>James Doe</h2>
+            </div>
+        </div>
+
+        <div id="right_column">
+            <div class="first_person">
+                <div class="top_portion">
+                    <h1>Thor</h1>
+                    <p>Likes: <span id="my_likes">0</span></p>
+                    <button onclick="addLike(my_likes)">Like</button>
+                </div>
+                    <P>This is a link with instructions to build Mjölnir <a href="#">link</a>.</P>
+            </div>
+
+            <div class="first_person">
+                <div class="top_portion">
+                    <h1>Batman</h1>
+                    <p>Likes: <span id="likes">0</span></p>
+                    <button onclick="addLike(likes)">Like</button>
+                </div>
+                    <P>I am batman, this is the <a href="#">directions</a> to my batcave and not suspicious.</P>
+            </div>
+
+            <div class="first_person">
+                <div class="top_portion">
+                    <h1>The Devil</h1>
+                    <p>Likes: <span id="plus">0</span></p>
+                    <button onclick="addLike(plus)">Like</button>
+                </div>
+                    <P><a href="#">Click me</a> to see your sins.</P>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
